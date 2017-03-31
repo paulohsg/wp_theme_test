@@ -1,0 +1,105 @@
+
+.clear{
+	clear: both;
+}
+
+/* HEADER */
+.affix-top {
+	background: #fff;
+	border: none;
+	padding: 10px 0;
+	margin-bottom: 0;
+	-webkit-transition: all 500ms ease-in-out;
+    -moz-transition: all 500ms ease-in-out;
+    -ms-transition:all 500ms ease-in-out;
+    -o-transition: all 500ms ease-in-out;
+    transition: all 500ms ease-in-out;
+}
+.affix{
+    background: #fff;
+	border: none;
+	margin-bottom: 0;	
+	left: 0;
+	right: 0;
+    z-index:10;
+
+	
+	max-height: 30px;
+	min-height: 30px;
+
+    -webkit-transition: all 500ms ease-in-out;
+    -moz-transition: all 500ms ease-in-out;
+    -ms-transition: all 500ms ease-in-out;
+    -o-transition: all 500ms ease-in-out;
+    transition: all 500ms ease-in-out;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #555;
+    background-color: #C9EFFD;
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: black;
+    background-color: #EEF6F9;
+    -webkit-transition: all ease-in-out .3s;
+    -moz-transition: all ease-in-out .3s;
+    -ms-transition: all ease-in-out .3s;
+    -o-transition: all ease-in-out .3s;
+    transition: all ease-in-out .3s;
+}
+
+.header .navbar-collapse-custom a{
+	color: #353535;
+}
+.item img{
+	height: 500px;
+	max-height: 500px;
+	width: auto;
+}
+.img-thumbnail{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+	height: 300px;
+}
+.product_home p{
+	text-align: justify;
+}
+.product_home .row{
+	padding-top: 50px;
+}
+.product_home{
+	padding: 15px;
+	
+}
+.product_home section:hover{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.product_home a{
+	color: black;
+}
+.product_home a:hover{
+	color: #595959;
+	text-decoration: none;
+}
+#myCarousel .item{
+  margin: 3px;
+}
+#myCarousel .item img{
+  	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+	height: 300px;
+	max-width: 100%;
+}
+.slick-prev:before, .slick-next:before{
+	color: black;
+}
+@media screen and (max-width: 480px) {
+    .slick-prev:before, .slick-next:before{
+		display: none;
+	}
+}
+
+
